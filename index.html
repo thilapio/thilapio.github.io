@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        /* Estilo dos cartões com imagem */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            transition: transform 0.2s;
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Personagens</h1>
+    <div class="cards">
+        <!-- Cartão com Imagem 1 -->
+        <a href="https://www.dropbox.com/s/exemplo1" class="card" target="_blank">
+            <img src="https://i.imgur.com/fEwO1ZY.png" alt="Descrição da Imagem 1">
+        </a>
+
+        <!-- Cartão com Imagem 2 -->
+        <a href="https://www.dropbox.com/s/exemplo2" class="card" target="_blank">
+            <img src="https://i.imgur.com/fEwO1ZY.png" alt="Descrição da Imagem 2">
+        </a>
+
+        <!-- Cartão com Imagem 3 -->
+        <a href="https://www.dropbox.com/s/exemplo3" class="card" target="_blank">
+            <img src="https://i.imgur.com/fEwO1ZY.png" alt="Descrição da Imagem 3">
+        </a>
+
+        <!-- Cartão com Imagem 4 -->
+        <a href="https://www.dropbox.com/s/exemplo4" class="card" target="_blank">
+            <img src="https://i.imgur.com/fEwO1ZY.png" alt="Descrição da Imagem 4">
+        </a>
+
+        <!-- Cartão com Imagem 5 -->
+        <a href="https://www.dropbox.com/s/exemplo5" class="card" target="_blank">
+            <img src="https://i.imgur.com/fEwO1ZY.png" alt="Descrição da Imagem 5">
+        </a>
+
+        <!-- Cartão com Imagem 6 -->
+        <a href="https://www.dropbox.com/s/exemplo6" class="card" target="_blank">
+            <img src="https://i.imgur.com/fEwO1ZY.png" alt="Descrição da Imagem 6">
+        </a>
+
+        <!-- Cartão com Imagem 7 -->
+        <a href="https://www.dropbox.com/s/exemplo7" class="card" target="_blank">
+            <img src="https://i.imgur.com/fEwO1ZY.png" alt="Descrição da Imagem 7">
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
